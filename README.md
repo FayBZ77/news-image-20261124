@@ -1,36 +1,24 @@
-[![make.fun bounty](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
-
+![news-image-20261124](https://make.fun/badge/news-image-20261124.svg)
 ![rank](https://make.fun/badge/news-image-20261124/FayBZ77/news-image-20261124/rank.svg)
-
 ![reward](https://make.fun/badge/news-image-20261124/FayBZ77/news-image-20261124/reward.svg)
 
+# The World in One Picture — Tuesday 24 November 2026
 
-My entry to the [news-image-20261124 bounty on make.fun](https://make.fun/bounty/news-image-20261124).
+A single 1024×1024 newspaper front page that sums up the world news of
+Tuesday 24 November 2026, built for the
+[news-image-20261124](https://make.fun/bounty/news-image-20261124) bounty.
 
-# The world on Tuesday 24 November 2026, in one image
+`main.ts` copies the finished image to `/output/entry.png` (or to the
+directory named by `MAKEFUN_OUTPUT_DIR`), checking that it is a real PNG
+and verifying the copied bytes match. `make_image.py` is the Pillow
+program that draws the page: masthead, lead story, oil-price chart,
+two middle stories, three briefs, an "Also Today" ticker and a footer.
 
-`entry.png` (1024x1024) is a newspaper front page summing up the world's news of
-Tuesday 24 November 2026. `main.ts` copies it to `/output/entry.png` and verifies
-the copy byte for byte; `make_image.py` is the PIL program that drew it.
+## The six stories on the page
 
-The stories, each reported on 24 November 2026 and cross-checked across outlets
-(Reuters' market brief and podcast, AP wires, and the day's news roundups):
-
-- **Tankers hit by mines in the Strait of Hormuz** — Iran's Revolutionary Guard
-  says tankers struck mines late Monday despite a US escort; Washington has not
-  confirmed it. Brent crude whipsawed near $91 on the attacks.
-- **Houthis hit a Riyadh tower again** — a strike on the PIF Tower in the
-  capital's financial district injures 11, the second attack in under a week.
-- **Russian strike kills 2, wounds 40 in Zaporizhzhia** — an overnight attack
-  partly destroys an apartment block; children are among the wounded.
-- **Shenzhou-24 carries Pakistan's first astronaut** — China launches two
-  taikonauts and Muhammad Zishan Ali to the Tiangong station for about a week.
-- **Democrats clinch 259 House seats** — the largest House majority since 1990
-  as states finish certifying results.
-- **Huawei guilty of trade-secret theft** — a US jury convicts the Chinese tech
-  giant of conspiracy to steal trade secrets.
-- Ticker: Nvidia gives back 5.9% after Monday's surge, Bangladesh garment
-  workers block roads, NATO vows to defend space, Hasina plans a Dec 16 return,
-  FIFA names 2031 Women's World Cup hosts, Iowa to detonate its lead-azide
-  stockpile Wednesday, Taiwan votes Saturday, an unclassified CIA system
-  breached.
+- **Strait of Hormuz** — Tankers were hit by mines in the strait; Iran's Revolutionary Guard blames mines laid late Monday despite a US escort, and Washington has not confirmed it.
+- **Riyadh** — Houthi forces struck the PIF Tower in the capital's financial district, injuring 11 people — the second attack on Riyadh in under a week.
+- **Zaporizhzhia** — A Russian overnight strike killed 2 and wounded 40, partly destroying an apartment block as rescuers dug through the rubble.
+- **Space** — Shenzhou-24 carried Pakistan's first astronaut, Muhammad Zishan Ali, to the Tiangong station for about a week in orbit.
+- **US Politics** — Democrats clinched 259 House seats, the largest House majority since 1990 as states finish certifying results.
+- **Courts** — A US jury found Huawei guilty of conspiracy to steal trade secrets.
